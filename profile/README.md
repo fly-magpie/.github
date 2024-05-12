@@ -17,7 +17,7 @@ Magpie is a developer-focused tool that connects directly to multiple data sourc
 
 - **Data Source Integration**: Connect seamlessly with BI tools, custom APIs, and ETL platforms like Fivetran and Databricks.
 - **Curated Datasets**: Easily curate and configure datasets right within Magpie, tailored to your specific visualization needs.
-- **Instant Visualization**: Describe what you need in simple text or through Figma components, and let Magpie generate and embed live, interactive charts and graphs.
+- **Instant Visualization**: Describe what you need in simple text and let Magpie generate and embed live, interactive charts and graphs via SDK
 - **No Backend Hassles**: Deploy visualizations directly without the need for additional backend setup or tooling.
 
 ### Getting Started
