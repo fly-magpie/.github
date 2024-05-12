@@ -1,9 +1,9 @@
 
 <p align="center">
-  <img style="width:50%" src="./images/Magpie500.png" alt="Magpie Logo">
+  <img style="width:30%" src="./images/Magpie500.png" alt="Magpie Logo">
 </p>
 
-# Welcome to Magpie!
+# Welcome to Magpie 🔥  !
 
 ## Transforming Data Visualization Development
 
