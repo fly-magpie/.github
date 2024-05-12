@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="images/Magpie500.png" alt="Magpie Logo">
+  <img src="./images/Magpie500.png" alt="Magpie Logo">
 </p>
 
 # Welcome to Magpie!
