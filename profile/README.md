@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img style="width:50%; height:50%" src="./images/Magpie500.png" alt="Magpie Logo">
+  <img style="width:50%; height:50%" src="./images/Black on white.png" alt="Magpie Logo">
 </p>
 
 # Welcome to Magpie 🔥 
