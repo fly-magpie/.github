@@ -2,13 +2,11 @@
 
 <div align="center">
 
-![Magpie Logo](assets/logo.png)
-
 # One Smart Email. All Your SaaS Insights.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Website](https://img.shields.io/badge/Website-magpie.report-blue)](https://get-magpie.com)
+[![Website](https://img.shields.io/badge/Website-magpie-blue)](https://get-magpie.com)
 
 Transform scattered SaaS reports into actionable intelligence through a single email address. No integrations. No complexity. Just insights.
 
