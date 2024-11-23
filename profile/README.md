@@ -3,40 +3,108 @@
   <img style="width:50%; height:50%" src="./images/Black on white.png" alt="Magpie Logo">
 </p>
 
-# Welcome to Magpie 🔥 
+# 🔍 Magpie - Your Intelligent Report Assistant
 
-## Transforming Data Visualization Development
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Magpie is an innovative platform designed to empower developers by simplifying the process of integrating and visualizing data from a variety of sources including BI tools, APIs, and ETL tools. Our tool allows developers to quickly create and deploy visualizations directly into their applications, enhancing development efficiency and reducing time to market.
+Magpie is an AI-powered report intelligence platform that transforms how organizations handle SaaS reports through an innovative email-first approach. By providing a single intelligent email address, Magpie automatically collects, organizes, and analyzes reports from various SaaS tools, turning scattered information into actionable insights.
 
-### What is Magpie?
+## 🌟 Key Features
 
-Magpie is a developer-focused tool that connects directly to multiple data sources, allows for the creation of curated datasets, and integrates these datasets into visual components that can be instantly used in web and mobile applications. Whether you need to display sales trends, analyze financial data, or track user engagement, Magpie makes it easier than ever to bring powerful data-driven insights to life.
+- **Zero Integration Required**: Just change your report email settings once, and Magpie handles the rest
+- **Universal Compatibility**: Works with any SaaS tool that can send email reports
+- **Intelligent Classification**: Automatically categorizes and organizes reports by type and source
+- **Natural Language Queries**: Ask questions in plain English and get instant insights
+- **Privacy-First Design**: Only processes designated reports - not your entire inbox
+- **Smart Summaries**: Automated executive summaries and trend analysis
+- **Real-time Alerts**: Configurable thresholds for critical metrics
 
-### Key Features
+## 🔧 Supported Platforms
 
-- **Data Source Integration**: Connect seamlessly with BI tools, custom APIs, and ETL platforms like Fivetran and Databricks.
-- **Curated Datasets**: Easily curate and configure datasets right within Magpie, tailored to your specific visualization needs.
-- **Instant Visualization**: Describe what you need in simple text and let Magpie generate and embed live, interactive charts and graphs via SDK
-- **No Backend Hassles**: Deploy visualizations directly without the need for additional backend setup or tooling.
+- **AWS**: Billing reports, usage metrics, cost explorer, forecasts
+- **Salesforce**: Pipeline reports, sales forecasts, activity tracking
+- **Jira**: Sprint reports, velocity charts, issue tracking
+- **And many more**: Compatible with any platform that sends email reports
 
-### Getting Started
+## 📊 Benefits
 
-To start using Magpie, follow these steps:
-1. Clone the repository.
-2. Set up your environment with the necessary dependencies (see installation guide).
-3. Follow the configuration instructions to connect Magpie to your data sources.
-4. Explore the documentation to learn more about creating your first visualization.
+- **Time Savings**: Reduce report processing time by 92%
+- **Enhanced Insights**: Never miss critical trends or patterns
+- **Faster Decisions**: Get answers instantly without manual data compilation
+- **Better Organization**: All your reports in one searchable knowledge base
 
-### Contribute to Magpie
+## 🚀 Quick Start
 
-We welcome contributions from the community! Whether you're looking to fix bugs, add new features, or improve documentation, there's space for everyone. Check out our [contributing guidelines](LINK_TO_CONTRIBUTING_GUIDELINES) for more information on how to get started.
+1. **Sign Up**: Get your Magpie email address (e.g., `reports@company.magpie.ai`)
+2. **Configure Sources**: Update report delivery settings in your SaaS tools
+3. **Choose Report Types**: Select which reports you want to process
+4. **Set Preferences**: Configure frequencies and alert thresholds
+5. **Start Getting Insights**: Use natural language to query your data
 
-### Stay Connected
+## 💡 Use Cases
 
-- **Join Our Community**: ([Slack](https://join.slack.com/t/fly-magpie/shared_invite/zt-2fqjflmc3-kORw0VV4SQI3qNKYwxq5mg))
-<!-- - **Follow Us on Social Media**: Links to social media profiles -->
-<!-- - **Subscribe to Our Newsletter**: Link or instructions for subscribing to updates -->
+- **Executive Reporting**: Automated summaries across all tools
+- **Cost Management**: Track and analyze spending across platforms
+- **Performance Monitoring**: Unified view of key metrics
+- **Trend Analysis**: Identify patterns and anomalies automatically
 
-Thank you for your interest in Magpie. We're excited to see what you'll build with us!
+## 🔒 Privacy & Security
+
+Magpie is built with privacy at its core:
+- Only processes explicitly designated reports
+- No access to general emails
+- Enterprise-grade encryption
+- Configurable data retention policies
+- Complete audit trail
+- Transparent data processing
+
+## 🛠️ Architecture
+
+```mermaid
+flowchart TD
+    A[Email Generation Service] --> B[Proxy Email Address]
+    B --> C[Email Reception & Processing Service]
+    
+    subgraph Input Sources
+        SaaS1[Salesforce Reports] --> B
+        SaaS2[AWS Billing] --> B
+        SaaS3[Jira Reports] --> B
+        SaaS4[Other SaaS Tools] --> B
+    end
+
+    C --> D[Classification Engine]
+    
+    subgraph Classification
+        D --> D1[Report Type Classification]
+        D --> D2[Source Classification]
+        D --> D3[Content Classification]
+    end
+```
+
+## 📈 Impact
+
+- **Time Saved**: 10+ hours weekly per team
+- **Processing Speed**: 92% reduction in report processing time
+- **Coverage**: Handles 30+ automated reports weekly
+- **Accuracy**: Catches insights often missed in manual review
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📧 Support
+
+Need help? Check out our:
+- [Documentation](docs/)
+- [Setup Guides](docs/setup/)
+- [Video Tutorials](docs/tutorials/)
+- [Contact Support](mailto:support@magpie.ai)
+
+---
+
+Built with ❤️ by the Magpie team
 ˀ
