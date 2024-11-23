@@ -1,8 +1,4 @@
 
-<p align="center">
-  <img style="width:50%; height:50%" src="./images/Black on white.png" alt="Magpie Logo">
-</p>
-
 # 🔍 Magpie - Your Intelligent Report Assistant
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -35,7 +31,7 @@ Magpie is an AI-powered report intelligence platform that transforms how organiz
 
 ## 🚀 Quick Start
 
-1. **Sign Up**: Get your Magpie email address (e.g., `reports@company.magpie.ai`)
+1. **Sign Up**: Get your Magpie email address (e.g., `reports@company.magpie.report`)
 2. **Configure Sources**: Update report delivery settings in your SaaS tools
 3. **Choose Report Types**: Select which reports you want to process
 4. **Set Preferences**: Configure frequencies and alert thresholds
@@ -58,7 +54,42 @@ Magpie is built with privacy at its core:
 - Complete audit trail
 - Transparent data processing
 
-## 🛠️ Architecture
+## 🔄 How It Works
+
+```mermaid
+flowchart LR
+    A[Sign Up] -->|"1️⃣"| B[Get Magpie Email]
+    B -->|"2️⃣"| C[Configure SaaS Tools]
+    C -->|"3️⃣"| D[Automatic Processing]
+    
+    D -->|"4️⃣"| E[Daily/Weekly Summaries]
+    D -->|"4️⃣"| F[WhatsApp Queries]
+    
+    subgraph "📊 Outputs"
+        E
+        F
+    end
+    
+    subgraph "⚙️ Setup Steps"
+        A
+        B
+        C
+    end
+    
+    subgraph "🤖 Magpie AI"
+        D
+    end
+    
+    %% Styling
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px;
+    classDef highlight fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
+    classDef output fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+    
+    class D highlight;
+    class E,F output;
+```
+
+## 🛠️ Technical Architecture
 
 ```mermaid
 flowchart TD
@@ -102,7 +133,7 @@ Need help? Check out our:
 - [Documentation](docs/)
 - [Setup Guides](docs/setup/)
 - [Video Tutorials](docs/tutorials/)
-- [Contact Support](mailto:support@magpie.ai)
+- [Contact Support](mailto:support@magpie.report)
 
 ---
 
