@@ -107,4 +107,3 @@ Need help? Check out our:
 ---
 
 Built with ❤️ by the Magpie team
-ˀ
