@@ -1,59 +1,35 @@
-# 🔍 Magpie - Your Intelligent Report Assistant
+# Magpie
+
+<div align="center">
+
+![Magpie Logo](assets/logo.png)
+
+# One Smart Email. All Your SaaS Insights.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Website](https://img.shields.io/badge/Website-magpie.report-blue)](https://get-magpie.com)
 
-Magpie is an AI-powered report intelligence platform that transforms how organizations handle SaaS reports through an innovative email-first approach. By providing a single intelligent email address, Magpie automatically collects, organizes, and analyzes reports from various SaaS tools, turning scattered information into actionable insights.
+Transform scattered SaaS reports into actionable intelligence through a single email address. No integrations. No complexity. Just insights.
 
-## 🌟 Key Features
+[Get Started](https://dashboard.magpie.report) · [Documentation](docs/) · [Examples](examples/) · [Community](https://discord.gg/V37aCRZy3T)
 
-- **Zero Integration Required**: Just change your report email settings once, and Magpie handles the rest
-- **Universal Compatibility**: Works with any SaaS tool that can send email reports
-- **Intelligent Classification**: Automatically categorizes and organizes reports by type and source
-- **Natural Language Queries**: Ask questions in plain English and get instant insights
-- **Privacy-First Design**: Only processes designated reports - not your entire inbox
-- **Smart Summaries**: Automated executive summaries and trend analysis
-- **Real-time Alerts**: Configurable thresholds for critical metrics
+</div>
 
-## 🔧 Supported Platforms
+---
 
-- **AWS**: Billing reports, usage metrics, cost explorer, forecasts
-- **Salesforce**: Pipeline reports, sales forecasts, activity tracking
-- **Jira**: Sprint reports, velocity charts, issue tracking
-- **And many more**: Compatible with any platform that sends email reports
+## ✨ The Problem We Solve
 
-## 📊 Benefits
+Executives and teams receive **30+ critical reports weekly** from different SaaS tools - buried in emails, mixed formats, different schedules. Important insights get lost, and hours are wasted collecting and analyzing data.
 
-- **Time Savings**: Reduce report processing time by 92%
-- **Enhanced Insights**: Never miss critical trends or patterns
-- **Faster Decisions**: Get answers instantly without manual data compilation
-- **Better Organization**: All your reports in one searchable knowledge base
+## 💡 Our Solution
 
-## 🚀 Quick Start
-
-1. **Sign Up**: Get your Magpie email address (e.g., `reports@company.magpie.report`)
-2. **Configure Sources**: Update report delivery settings in your SaaS tools
-3. **Choose Report Types**: Select which reports you want to process
-4. **Set Preferences**: Configure frequencies and alert thresholds
-5. **Start Getting Insights**: Use natural language to query your data
-
-## 💡 Use Cases
-
-- **Executive Reporting**: Automated summaries across all tools
-- **Cost Management**: Track and analyze spending across platforms
-- **Performance Monitoring**: Unified view of key metrics
-- **Trend Analysis**: Identify patterns and anomalies automatically
-
-## 🔒 Privacy & Security
-
-Magpie is built with privacy at its core:
-- Only processes explicitly designated reports
-- No access to general emails
-- Enterprise-grade encryption
-- Configurable data retention policies
-- Complete audit trail
-- Transparent data processing
-
-## 🔄 How It Works
+Set up your Magpie email (`reports@company.magpie.report`), update your SaaS report settings once, and let our AI:
+- 📊 Automatically organize all your reports
+- 🤖 Extract and analyze key insights
+- 📱 Make data queryable via WhatsApp
+- 📈 Generate smart summaries
+- ⚡ Alert you about important trends
 
 ```mermaid
 flowchart LR
@@ -78,62 +54,66 @@ flowchart LR
     subgraph "🤖 Magpie AI"
         D
     end
-    
-    %% Styling
-    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px;
-    classDef highlight fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
-    classDef output fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
-    
-    class D highlight;
-    class E,F output;
 ```
 
-## 🛠️ Technical Architecture
+## 🎯 Key Features
 
-```mermaid
-flowchart TD
-    A[Email Generation Service] --> B[Proxy Email Address]
-    B --> C[Email Reception & Processing Service]
-    
-    subgraph Input Sources
-        SaaS1[Salesforce Reports] --> B
-        SaaS2[AWS Billing] --> B
-        SaaS3[Jira Reports] --> B
-        SaaS4[Other SaaS Tools] --> B
-    end
+- **Zero-Integration Setup**: Just change email settings in your SaaS tools
+- **Privacy-First**: Only processes designated reports, not your entire inbox
+- **Universal Compatibility**: Works with any tool that can email reports
+- **Natural Language Queries**: Ask questions in plain English via WhatsApp
+- **Intelligent Summaries**: Automated insights and trend analysis
 
-    C --> D[Classification Engine]
-    
-    subgraph Classification
-        D --> D1[Report Type Classification]
-        D --> D2[Source Classification]
-        D --> D3[Content Classification]
-    end
-```
+## 📊 Supported Platforms
+
+- **AWS**: Billing, usage metrics, cost forecasts
+- **Salesforce**: Pipeline, forecasts, activity reports
+- **Jira**: Sprint reports, velocity charts
+- **And More**: Any platform that sends email reports
+
+## 🚀 Getting Started
+
+1. Sign up at [dashboard.magpie.report](https://dashboard.magpie.report)
+2. Get your dedicated Magpie email address
+3. Update report settings in your SaaS tools
+4. Start receiving organized insights
+
+Check our [Quick Start Guide](docs/quickstart.md) for detailed setup instructions.
+
+## 💼 Use Cases
+
+- **Executive Teams**: Consolidated insights across all tools
+- **Finance Teams**: Unified cost and billing analysis
+- **Engineering Teams**: Performance and incident tracking
+- **Sales Teams**: Pipeline and forecast monitoring
 
 ## 📈 Impact
 
-- **Time Saved**: 10+ hours weekly per team
-- **Processing Speed**: 92% reduction in report processing time
-- **Coverage**: Handles 30+ automated reports weekly
-- **Accuracy**: Catches insights often missed in manual review
+- **92%** reduction in report processing time
+- **10+** hours saved weekly per team
+- **100%** of critical trends identified
+- **Zero** integration overhead
+
+## 🛡️ Privacy & Security
+
+- Only processes explicitly designated reports
+- Enterprise-grade encryption
+- Configurable retention policies
+- Complete audit trail
+- SOC 2 Type II certified
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
-## 📄 License
+## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📧 Support
-
-Need help? Check out our:
-- [Documentation](docs/)
-- [Setup Guides](docs/setup/)
-- [Video Tutorials](docs/tutorials/)
-- [Contact Support](mailto:support@magpie.ai)
-
 ---
 
-Built with ❤️ by the Magpie team
+<div align="center">
+Built with ❤️ for teams drowning in SaaS reports
+
+[Website](https://magpie.report) · [Documentation](docs/) · [Support](mailto:support@magpie.report)
+</div>
